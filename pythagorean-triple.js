@@ -18,5 +18,20 @@ const player = testObj;   // Change this line
 // ✅SOLUTION:
 function isPythagoreanTriple(integers)
 {
-  return (integers[0] * integers[0] + integers[1] * integers[1] == integers[2] * integers[2]);
+  const a = integers[0];
+  const b = integers[1];
+  const c = integers[2]
+  if (a * a + b * b == c * c)
+  {
+    return true;
+  }
+  else if (a * a + c * c == b * b)
+  {
+    return true;
+  }
+  else if (b * b + c * c == a * a)
+  {
+    return true;
+  }
+  return false;
 }
