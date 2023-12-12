@@ -20,7 +20,7 @@ function isPythagoreanTriple(integers)
 {
   const a = integers[0];
   const b = integers[1];
-  const c = integers[2]
+  const c = integers[2];
   if (a * a + b * b == c * c)
   {
     return true;
