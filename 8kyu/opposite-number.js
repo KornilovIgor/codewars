@@ -4,4 +4,4 @@
 Very simple, given an integer or a floating-point number, find its opposite.*/
 
 // ✅SOLUTION:
-const opposite = (number) => (-1)*number;
+const opposite = (number) => -number;
